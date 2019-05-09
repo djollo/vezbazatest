@@ -103,3 +103,37 @@ section {
     }
   }
 }
+#pricing {
+  text-align: center;
+  .buttons {
+    display: none;
+  }
+  table {
+    width: 60%;
+    margin: 0 auto;
+    border-collapse: collapse;
+
+    td,
+    th {
+      padding: 1em;
+    }
+    thead {
+      background-color: $main_red;
+      th {
+        color: white;
+      }
+      th:first-child {
+        background-color: $red_dark;
+      }
+      tbody {
+        tr {
+          border-bottom: 1px solid $main_text_color;
+        }
+        td:first-child {
+          background-color: $grey_background;
+          font-weight: bold;
+        }
+      }
+    }
+  }
+}
